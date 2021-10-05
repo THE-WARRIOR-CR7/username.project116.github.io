@@ -1,0 +1,35 @@
+body {
+    background-color:yellow;
+}
+h1 {
+    background-color:tomato;
+    color:seagreen;
+}
+#show_sketch {
+    float: right;
+}
+p,span {
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas {
+    border-radius: 32px;
+    border: 5px ridge red;
+    margin-top: 80px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{
+        box-shadow: 10px 20px 30px orangered;
+    }
+    to{
+        box-shadow: 10px 20px 30px blue;
+    }
+}
+#timer{
+    float:right;
+    margin-right: 250px;
+    
+}
